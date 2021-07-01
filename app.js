@@ -13,7 +13,7 @@ function calculate() {
   const curr1 = c1.value;
   const curr2 = c2.value;
   fetch(
-    `https://v6.exchangerate-api.com/v6/70bc7ca67deee73f9a708451/latest/${curr1}`
+    `https://v6.exchangerate-api.com/v6/07c7436812f210f455d48d84/latest/${curr1}`
   )
     .then((res) => res.json())
     .then((data) => {
