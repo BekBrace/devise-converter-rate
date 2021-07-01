@@ -25,7 +25,7 @@ function calculate() {
     });
 }
 
-// Event Listeners
+// Event  Listeners
 c1.addEventListener("change", calculate);
 amount1.addEventListener("input", calculate);
 c2.addEventListener("change", calculate);
